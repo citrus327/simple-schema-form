@@ -2,7 +2,7 @@
   "name": "@simple-schema-form/workspaces",
   "version": "1.0.0",
   "private": true,
-  "description": "",
+  "description": "A schema-based simple form",
   "author": "citrus327@outlook.com",
   "license": "MIT"
 }
