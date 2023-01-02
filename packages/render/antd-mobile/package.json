@@ -1,0 +1,59 @@
+{
+  "name": "@simple-schema-form/antd-mobile",
+  "version": "0.1.0",
+  "description": "my react lib starter",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "watch": "rollup -c -w",
+    "docs:start": "docit start",
+    "build": "run-p build:lib build:docs",
+    "build:lib": "rimraf dist && rollup -c",
+    "build:docs": "docit build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citrus327/react-lib-starter.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/citrus327/react-lib-starter/issues"
+  },
+  "homepage": "https://github.com/citrus327/react-lib-starter#readme",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@blizzbolts/docit": "^0.10.1",
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@rollup/plugin-url": "^6.1.0",
+    "@types/react": "^17.0.42",
+    "@types/react-dom": "^17.0.14",
+    "@types/styled-components": "^5.1.24",
+    "@zerollup/ts-transform-paths": "^1.7.18",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.12",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.70.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "4.6.2"
+  },
+  "dependencies": {
+    "core-js": "^3.22.2",
+    "tslib": "^2.3.1"
+  }
+}
